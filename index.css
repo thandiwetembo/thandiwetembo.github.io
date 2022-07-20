@@ -1,14 +1,49 @@
 body {
-	background: linear-gradient(-75deg, #eee4d5, #ffd2be, #d4deff, #e6f5f2); 
-	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
-	height: 100vh;
-    font-family: "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
+	background: #FAF1E9;
+    margin: 0;
 }
 
-h2{
-    font-family: "Bodoni MT", Didot, "Didot LT STD", "Book Antiqua", Garamond, "Times New Roman", serif;
-    color: #353536;
+#banner {
+	background: linear-gradient(-75deg, #F5460E, #EBF1C8, #3D72DA, #FAF1E9); 
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+    padding: 30vh 20px;
+
+    font-family: swear-display,serif;
+    font-weight: 400;
+    font-style: normal;
+
+    text-align: center;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-grow: 0;
+    flex-basis: content;
+}
+
+#nameTitle{
+    padding-left:10%;
+    padding-right:5%;
+}
+
+ #Bio{
+    padding-left:30%;
+    padding-right:10%;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
 a:link {
@@ -26,15 +61,3 @@ a:link {
   a:active {
     color: rgb(147, 165, 199);
   }
-
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-}
