@@ -1,0 +1,40 @@
+body {
+	background: linear-gradient(-75deg, #eee4d5, #ffd2be, #d4deff, #e6f5f2); 
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+    font-family: "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
+}
+
+h2{
+    font-family: "Bodoni MT", Didot, "Didot LT STD", "Book Antiqua", Garamond, "Times New Roman", serif;
+    color: #353536;
+}
+
+a:link {
+    color: #353536;
+  }
+  
+  a:visited {
+    color: #353536;
+  }
+  
+  a:hover {
+    color: rgb(198, 141, 252);
+  }
+  
+  a:active {
+    color: rgb(147, 165, 199);
+  }
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
