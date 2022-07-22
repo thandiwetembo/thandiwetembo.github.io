@@ -1,6 +1,7 @@
 body {
 	background: #FAF1E9;
-    margin: 0;
+  margin: 0;
+  font-family: 'Epilogue', sans-serif;
 }
 
 #banner {
@@ -46,18 +47,63 @@ body {
 	}
 }
 
+.projectHub{
+  padding: 10%;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:flex-start;
+  align-items:flex-start;
+  flex-grow: 3;
+  flex-basis: content;
+  flex: 2 0px;
+}
+
+.descriptionImage{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content:flex-start;
+  align-items:flex-start;
+  flex-grow: 0;
+  flex-basis: content;
+}
+
+.numberItem{
+  font-size:xx-large;
+  font-weight: 700;
+
+}
+
+.title{
+  font-size:x-large;
+  font-weight: 500;
+
+}
+
+.description{
+  font-size:medium;
+  font-weight: 200;
+
+}
+
+.previewPicture{
+
+}
+
 a:link {
     color: #353536; 
   }
   
-  a:visited {
+a:visited {
     color: #353536;
   }
   
-  a:hover {
+a:hover {
     color: rgb(198, 141, 252);
   }
   
-  a:active {
+a:active {
     color: rgb(147, 165, 199);
   }
