@@ -205,11 +205,13 @@ input[type="checkbox"]{
 #mission{
   font-family: 'Epilogue', sans-serif;
   font-weight: 500;
-  font-size: 1.5vh;
+  font-size: 2vw;
+  letter-spacing: 4px;
 }
 
 #sectionName{
   padding-top:5%;
+  padding-bottom:3%;
   padding-left:1.5%;
   font-size: 7vw;
   text-align:left;
@@ -218,24 +220,29 @@ input[type="checkbox"]{
 
 #recentWork{
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content:center;
-  align-items:flex-start;
+  flex-flow: row wrap;
+  justify-content:space-around;
+  align-items:center;
+  align-content: center;
+  gap: 2vh;
+
+  padding-left: 5vh;
+  padding-right: 3vh;
 }
 
 .projectHub{
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
+  align-items: flex-start;
+  flex: 1;
 }
 
 .nameNumber{
   padding-top:5%;
-  padding-left:3%;
   text-align:left;
   font-weight: 200;
-  font-size: 5vh;
+  font-size: 4vw;
   transition: all 0.5s ease;
 }
 
@@ -243,9 +250,14 @@ input[type="checkbox"]{
   font-weight: 700;
 }
 
+.bigQuestion{
+  color: rgb(126, 126, 126);
+  font-size: 1vw;
+  font-weight: 100;
+}
+
 .projectPicture{
-  width: 40%;
-  padding-left:1.5%;
+  width: 80%;
   padding-right: 3%;
   padding-bottom: 3%;
   height: auto;
@@ -256,7 +268,6 @@ input[type="checkbox"]{
 
 .projectDescription{
   font-size: 1.5vw;
-  padding-left:10%;
   font-weight: 200;
   padding-left:1%;
 }
@@ -279,27 +290,7 @@ div.titleSquare:hover {
 	height: 25vw;
 }
 
-.bigQuestion{
-  color: rgb(126, 126, 126);
-}
-
 img:hover{
   filter: grayscale(0);
    border-radius: 50%;
 }
-
-a:link {
-    color: #353536; 
-  }
-  
-a:visited {
-    color: #353536;
-  }
-  
-a:hover {
-    color: rgb(198, 141, 252);
-  }
-  
-a:active {
-    color: rgb(147, 165, 199);
-  }
