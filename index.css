@@ -1,8 +1,9 @@
 body {
-	background: #FAF1E9;
+	background: #e8e8e7;
   margin: 0;
   font-family: 'Epilogue', sans-serif;
   cursor:url(/imagesAndIcons/starburst-svgrepo-com.svg), auto;
+  color:#383838;
 }
 
 .wrapper{
@@ -195,7 +196,7 @@ input[type="checkbox"]{
   font-size: 2vw;
 }
 
- #Bio{
+#Bio{
     padding-left:60%;
     padding-right:10%;
     font-size: 2vw;
@@ -207,6 +208,7 @@ input[type="checkbox"]{
   font-weight: 500;
   font-size: 2vw;
   letter-spacing: 4px;
+  padding-bottom: 3%;
 }
 
 #sectionName{
@@ -252,8 +254,8 @@ input[type="checkbox"]{
 
 .bigQuestion{
   color: rgb(126, 126, 126);
-  font-size: 1vw;
-  font-weight: 100;
+  font-size: 1.5vw;
+  font-weight: 200;
 }
 
 .projectPicture{
@@ -293,4 +295,23 @@ div.titleSquare:hover {
 img:hover{
   filter: grayscale(0);
    border-radius: 50%;
+}
+
+.copyText{
+  padding-left:5%;
+  text-align:left;
+  font-weight: 200;
+  font-size: 2vw;
+  transition: all 0.5s ease;
+}
+
+.contactLink{
+  font-weight: 500;
+  font-size: 2vw;
+}
+
+ul{
+  padding-left: 15%;
+  list-style-type:none;
+  font-size: 4vh;
 }
