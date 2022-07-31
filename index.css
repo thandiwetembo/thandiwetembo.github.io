@@ -223,7 +223,7 @@ input[type="checkbox"]{
 
 #recentWork{
   display: flex;
-  flex-flow: row wrap;
+  flex-wrap: wrap;
   justify-content:space-around;
   align-items:center;
   align-content: center;
@@ -238,7 +238,7 @@ input[type="checkbox"]{
   flex-direction: column;
   flex-wrap: nowrap;
   align-items: flex-start;
-  flex: 1;
+  flex: 1 1 25vw;
 }
 
 .nameNumber{
@@ -309,10 +309,11 @@ img:hover{
   font-size: 2vw;
 }
 
-ul{
+.socialLink{
+  font-weight: 500;
+  font-size: 2vw;
   padding-left: 15%;
-  list-style-type:none;
-  font-size: 4vh;
+  color: rgb(57, 57, 57);
 }
 
 /* (A) WRAPPER */
