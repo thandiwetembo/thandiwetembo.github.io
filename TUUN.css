@@ -163,7 +163,7 @@ input[type="checkbox"]{
   padding-bottom:3%;
   padding-left:1.5%;
   font-size: 7vw;
-  text-align:left;
+  text-align:center;
 }
 
 #mission{
@@ -200,13 +200,13 @@ input[type="checkbox"]{
   flex-wrap: wrap;
   gap: 5vh;
 
-  padding-top: 3%;
-  padding-bottom: 3%;
+  padding-top: 2%;
+  padding-bottom: 2%;
 
 }
 
 .sectionTitle{
-  padding-top:5%;
+  padding-top:3%;
   padding-left:3%;
   font-size: 3.5vw;
   text-align:left;
@@ -214,41 +214,86 @@ input[type="checkbox"]{
 }
 
 .sectionCopy{
-  padding-top:5%;
-  padding-left:5%;
+  padding-top:3%;
+  padding-left:3%;
   padding-right:5%;
   font-size: 1.5vw;
   font-weight: 200;
   text-align:left;
   flex: 3 1;
 }
- 
-.button-16 {
-  background-color: #f0e0db;
-  border: 1px solid #f0e0db;
-  border-radius: 4px;
-  color: #3c4043;
-  cursor: pointer;
-  font-family: arial,sans-serif;
-  font-size: 14px;
-  height: 36px;
-  line-height: 27px;
-  min-width: 54px;
-  padding: 0 16px;
-  text-align: center;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  white-space: pre;
+
+#quote{
+  font-family: swear-display,serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 4vw;
 }
 
-.button-16:hover {
-  border-color: #dadce0;
-  box-shadow: rgba(0, 0, 0, .1) 0 1px 1px;
-  color: #202124;
+#highlight{
+    font-style: italic;
 }
 
-.button-16:focus {
-  border-color: #4285f4;
-  outline: none;
+.accentText{
+  font-weight: 500;
+}
+
+#recentWork{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+  align-items:center;
+  align-content: center;
+  gap: 2vh;
+
+  padding-left: 5vh;
+  padding-right: 3vh;
+}
+
+.projectHub{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  flex: 1 1 25vw;
+}
+
+.subsectionTitle{
+  padding-top:5%;
+  text-align:center;
+  font-weight: 200;
+  font-size: 2.5vw;
+  transition: all 0.5s ease;
+}
+
+.caseImage{
+  width: 60vw;
+  height: auto;
+}
+
+.gridLayout{
+  display: flex;
+  flex-wrap:wrap;
+  justify-content:space-around;
+  align-items:flex-start;
+  align-content: center;
+  gap: 3vh;
+
+  padding-left: 5vh;
+  padding-right: 3vh;
+}
+
+.subsectionSection{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  flex: 1 1 25vw;
+}
+
+.teamTitle{
+  font-family: swear-display,serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 2vw;
 }
