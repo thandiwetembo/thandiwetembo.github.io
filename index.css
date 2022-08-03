@@ -6,6 +6,14 @@ body {
   color:#383838;
 }
 
+a{
+  color:#383838;
+}
+
+a:hover{
+  color:#F5460E;
+}
+
 .wrapper{
   position: fixed;
   top: 0;
@@ -275,7 +283,6 @@ input[type="checkbox"]{
 
 .nameNumber:hover {
   color: #F5460E;
-  text-decoration: line-through;
 }
 
 div.titleSquare {
