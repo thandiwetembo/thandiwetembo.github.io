@@ -186,6 +186,7 @@ input[type="checkbox"]{
 
 .infoDetails{
   outline: 10px, black;
+  font-size: 1.25vw;
   padding-left: 5vw;
   padding-right: 5vh;
 }
@@ -198,11 +199,8 @@ input[type="checkbox"]{
 .caseStudySection{
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   gap: 5vh;
-
-  padding-top: 2%;
-  padding-bottom: 2%;
   padding-right: 7%;
 }
 
@@ -268,15 +266,9 @@ input[type="checkbox"]{
 }
 
 .caseImage{
-  width: 70vw;
+  width: 65vw;
   height: auto;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.shadow{
-  filter: drop-shadow(5px 7px 0.5rem rgba(55, 55, 55, 0.447));
 }
 
 .gridLayout{
@@ -285,10 +277,10 @@ input[type="checkbox"]{
   justify-content:space-between;
   align-items:flex-start;
   align-content: center;
-  gap: 5vw;
+  gap: 2vw;
 
-  padding-left: 15%;
-  padding-right: 15%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .pictureText{
@@ -307,18 +299,18 @@ input[type="checkbox"]{
 .subsectionSection{
   display: flex;
   flex-direction: column;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   align-items: flex-start;
-  flex: 1 1 20vw;
+  flex: 1 1 15vw;
 }
 
 .picTextLayout{
   padding-top:3%;
   padding-left:3%;
   padding-right:10%;
-  font-size: 1.125vw;
+  font-size: 1vw;
   font-weight: 200;
-  text-align:center;
+  text-align:left;
   flex: 1 1 5vw;
 }
 
@@ -335,4 +327,15 @@ input[type="checkbox"]{
   font-weight: 500;
   font-style: normal;
   font-size: 2vw;
+}
+
+.auditVideo{
+  width: 50vw;
+  height: auto;
+}
+
+.prototype{
+  width: 15vw;
+  height: auto;
+  flex: 1;
 }
