@@ -216,7 +216,7 @@ input[type="checkbox"]{
   padding-top:3%;
   padding-left:3%;
   padding-right:10%;
-  font-size: 1.125vw;
+  font-size: 1.35vw;
   font-weight: 200;
   text-align:left;
   flex: 3 1;
@@ -262,7 +262,6 @@ input[type="checkbox"]{
   text-align:center;
   font-weight: 200;
   font-size: 2vw;
-  transition: all 0.5s ease;
 }
 
 .caseImage{
@@ -335,7 +334,19 @@ input[type="checkbox"]{
 }
 
 .prototype{
-  width: 15vw;
+  padding-top:10%;
+  width: 30vw;
   height: auto;
   flex: 1;
+}
+
+
+.sectionCopyPrototype{
+  padding-top:3%;
+  padding-left:3%;
+  padding-right:3%;
+  font-size: 1.35vw;
+  font-weight: 200;
+  text-align:left;
+  flex: 3 1;
 }

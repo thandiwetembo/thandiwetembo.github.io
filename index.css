@@ -235,7 +235,7 @@ input[type="checkbox"]{
   justify-content:space-around;
   align-items:center;
   align-content: center;
-  gap: 2vh;
+  gap: 1vh;
 
   padding-left: 5vh;
   padding-right: 3vh;
@@ -246,14 +246,14 @@ input[type="checkbox"]{
   flex-direction: column;
   flex-wrap: nowrap;
   align-items: flex-start;
-  flex: 1 1 25vw;
+  flex: 1 1 22vw;
 }
 
 .nameNumber{
   padding-top:5%;
   text-align:left;
   font-weight: 200;
-  font-size: 4vw;
+  font-size: 2.5vw;
   transition: all 0.5s ease;
 }
 
@@ -261,23 +261,17 @@ input[type="checkbox"]{
   font-weight: 700;
 }
 
-.bigQuestion{
-  color: rgb(77, 77, 77);
-  font-size: 1.5vw;
-  font-weight: 200;
-}
-
 .projectPicture{
-  width: 100%;
-  height: 100%;
-  padding-right: 3%;
+  width: 22vw;
+  height: auto;
+  padding-right: 2%;
   padding-bottom: 3%;
   transition: all 0.5s ease;
   border-radius: 0%;
 }
 
 #projectDescription{
-  font-size: 1.5vw;
+  font-size: 1vw;
   font-weight: 500;
 }
 
@@ -326,15 +320,14 @@ img:hover{
 /* (A) WRAPPER */
 .fullwrap {
   position: relative; /* required for (c2) */
-  max-width: 500px; /* optional */
 }
  
 /* (C) CAPTION */
 .fullcap {
   /* (C1) DIMENSIONS */
   box-sizing: border-box;
-  width: 99%;
-  height: 99%;
+  width: 22vw;
+  height: 96.5%;
  
   /* (C2) POSITION */
   position: absolute;
