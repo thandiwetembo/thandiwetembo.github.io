@@ -1,5 +1,5 @@
 body {
-	background: #e8e8e7;
+	background: #f8f4eb;
   margin: 0;
   font-family: 'Epilogue', sans-serif;
   cursor:url(/imagesAndIcons/starburst-svgrepo-com.svg), auto;
@@ -208,9 +208,10 @@ input[type="checkbox"]{
 #mission{
   font-family: 'Epilogue', sans-serif;
   font-weight: 500;
-  font-size: 2vw;
+  font-size: 4vw;
   letter-spacing: 4px;
   padding-bottom: 3%;
+  text-align: center;
 }
 
 #pageName{
