@@ -336,3 +336,9 @@ input[type="checkbox"]{
   font-style: normal;
   font-size: 2vw;
 }
+
+.trade{
+  text-align: center;
+  color: #767676;
+  font-weight: 200;
+}

@@ -239,6 +239,7 @@ input[type="checkbox"]{
 
   padding-left: 5vh;
   padding-right: 3vh;
+  flex: 4 2 25vw;
 }
 
 .projectHub{
@@ -290,11 +291,6 @@ div.titleSquare:hover {
   background-color: #365bff;
 	width: 40vw;
 	height: 25vw;
-}
-
-img:hover{
-  filter: grayscale(0);
-   border-radius: 50%;
 }
 
 .copyText{
@@ -385,4 +381,10 @@ img:hover{
 .button-16:focus {
   border-color: #4285f4;
   outline: none;
+}
+
+.trade{
+  text-align: center;
+  color: #767676;
+  font-weight: 200;
 }
