@@ -91,6 +91,7 @@ body {
     top: 50px;
     left: 0px;
     font-weight: 400;
+    font-size: 4vw;
   }
   .nav > .nav-links > a {
     display: block;

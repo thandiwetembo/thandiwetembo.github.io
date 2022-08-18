@@ -99,6 +99,7 @@ a:hover{
     top: 50px;
     left: 0px;
     font-weight: 400;
+    font-size: 4vw;
   }
   .nav > .nav-links > a {
     display: block;
@@ -108,7 +109,7 @@ a:hover{
     height: 0px;
   }
   .nav > #nav-check:checked ~ .nav-links {
-    height: 20vw;
+    height: 40vw;
     overflow-y: auto;
   }
 }
