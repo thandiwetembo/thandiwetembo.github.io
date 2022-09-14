@@ -217,7 +217,7 @@ img {
   left: 0;
   opacity: 0;
   transition: opacity .5s;
-  background: rgba(255, 236, 236, 0.776);
+  background: #8b2401da;
   color: white;
   
   /* position the text in t’ middle*/
@@ -233,6 +233,11 @@ img {
 .location-listing:hover .location-image img {
   filter: blur(2px);
   transition: filter 5s ease-in;
+}
+
+.linkTitle{
+  color: #f4ebe8;
+  text-decoration: none;
 }
 
 
