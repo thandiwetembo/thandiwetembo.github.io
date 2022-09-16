@@ -1,0 +1,219 @@
+body {
+	background: #f8f4eb;
+  margin: 0;
+  font-family: 'Epilogue', sans-serif;
+  cursor:url(/imagesAndIcons/starburst-svgrepo-com.svg), auto;
+  color:#383838;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.nav {
+  height: 50px;
+  width: 100%;
+  background-color: #f8f4eb;
+  position: relative;
+  font-family: 'Epilogue', sans-serif;
+  font-weight: 200;
+}
+
+.nav > .nav-btn {
+  display: none;
+}
+
+.nav > .nav-links {
+  display: inline;
+  float: right;
+  font-size: 1.25vw;
+}
+
+.nav > .nav-links > a {
+  display: inline-block;
+  padding: 1vw 1vw 1vw 1vw;
+  text-decoration: none;
+  color: #383838;
+}
+
+.nav > .nav-links > a:hover {
+  text-decoration:line-through;
+  color: #F5460E;
+  font-weight: 400;
+}
+
+.nav > #nav-check {
+  display: none;
+}
+
+@media (max-width:600px) {
+  .nav > .nav-btn {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+  .nav > .nav-btn > label {
+    display: inline-block;
+    width: 10vw;
+    height: 10vw;
+    padding-top: 4vw;
+  }
+
+  .nav > .nav-btn > label > span {
+    display: block;
+    width: 25px;
+    height: 5px;
+    border-top: 2px solid #383838;
+  }
+  .nav > .nav-links {
+    position: absolute;
+    display: block;
+    width: 100%;
+    background-color: #f8f4eb;
+    height: 0px;
+    transition: all 0.3s ease-in;
+    overflow-y: hidden;
+    top: 50px;
+    left: 0px;
+    font-weight: 400;
+    font-size: 4vw;
+  }
+  .nav > .nav-links > a {
+    display: block;
+    width: 100%;
+  }
+  .nav > #nav-check:not(:checked) ~ .nav-links {
+    height: 0px;
+  }
+  .nav > #nav-check:checked ~ .nav-links {
+    height: 40vw;
+    overflow-y: auto;
+  }
+}
+
+.bannerImage {
+  width: 100vw;
+  height: auto;
+}
+
+#sectionName{
+  padding-top:5%;
+  padding-bottom:2%;
+  padding-left:10%;
+  font-size: 5vw;
+  text-align:left;
+}
+
+
+
+.projectSpecs{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items:flex-start;
+  justify-content: center;
+  flex: 1 1 10vw;
+}
+
+.infoDetails{
+  outline: 10px, black;
+  padding-left: 5vw;
+  padding-right: 5vh;
+}
+
+#projectDescription{
+  font-size: 1.5vw;
+  font-weight: 500;
+}
+
+.caseStudySection{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 5vh;
+
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-right: 7%;
+}
+
+.sectionTitle{
+  padding-top:3%;
+  padding-left:10%;
+  font-size: 2vw;
+  text-align:left;
+  flex: 1 1;
+}
+
+.sectionCopy{
+  padding-top:3%;
+  padding-left:3%;
+  padding-right:10%;
+  font-size: 1.125vw;
+  font-weight: 200;
+  text-align:left;
+  flex: 3 1;
+}
+
+#quote{
+  font-family: swear-display,serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 4vw;
+}
+
+#highlight{
+    font-style: italic;
+}
+
+.card {
+  outline: 3px solid #383838;
+  background-color:transparent;
+  color: #383838;
+  height: 20vw;
+  padding: 1vw;
+}
+
+.card:hover{
+  background-color: #383838;
+  outline: none;
+  color: white;
+  height: 20vw;
+}
+
+.cards {
+  max-width: 80vw;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 1vw;
+}
+
+/* Screen larger than 600px? 2 column */
+@media (min-width: 500px) {
+  .cards { grid-template-columns: repeat(1, 1fr); }
+}
+
+/* Screen larger than 900px? 3 columns */
+@media (min-width: 800px) {
+  .cards { grid-template-columns: repeat(2, 1fr); }
+}
+
+#accentText{
+  font-weight: 300;
+  font-size: 2.5vw;
+}
+
+.teamTitle{
+  font-family: swear-display,serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 2vw;
+}
+
+.trade{
+  text-align: center;
+  color: #767676;
+  font-weight: 200;
+  font-size: 1vw;
+}
