@@ -118,6 +118,7 @@ body {
 
 .infoDetails{
   outline: 10px, black;
+  font-size: 1.25vw;
   padding-left: 5vw;
   padding-right: 5vh;
 }
